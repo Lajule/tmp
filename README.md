@@ -65,3 +65,9 @@ tmp
 docker run -it --rm -v "${PWD}:/src" -w /src bash ./tmp.sh
 tmp
 ```
+
+## SQL
+
+```sh
+docker run -it --rm -v "${PWD}:/src" -w /src keinos/sqlite3
+```
