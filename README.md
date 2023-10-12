@@ -46,17 +46,17 @@ docker run -it --rm -v "${PWD}:/src" -w /src denoland/deno run tmp.js
 tmp
 ```
 
-## Markdown
-
-```sh
-docker run -it --rm -v "${PWD}:/docs" -p 3000:3000 dannyben/madness server
-```
-
 ## Lua
 
 ```sh
 docker run -it --rm -v "${PWD}:/src" -w /src nickblah/lua lua tmp.lua
 tmp
+```
+
+## Markdown
+
+```sh
+docker run -it --rm -v "${PWD}:/docs" -p 3000:3000 dannyben/madness server
 ```
 
 ## Bash
