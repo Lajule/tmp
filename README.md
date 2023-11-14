@@ -71,3 +71,9 @@ tmp
 ```sh
 docker run -it --rm -v "${PWD}:/src" -w /src keinos/sqlite3
 ```
+
+## Mermaid
+
+```sh
+docker run -it --rm -u "$(id -u):$(id -g)" -v "${PWD}:/src" -w /src minlag/mermaid-cli -e png -i ./tmp.mmd
+```
