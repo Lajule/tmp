@@ -42,7 +42,7 @@ tmp
 ## Java
 
 ```sh
-docker run -it --rm -v "${PWD}:/src" -w /src openjdk javac tmp.java
+docker run -it --rm -v "${PWD}:/src" -w /src openjdk javac Tmp.java
 docker run -it --rm -v "${PWD}:/src" -w /src openjdk java Tmp
 tmp
 ```
