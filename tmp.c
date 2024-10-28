@@ -2,6 +2,6 @@
 
 int
 main(int argc, char **argv) {
-	puts("tmp");
+	puts("tmp\n");
 	return 0;
 }

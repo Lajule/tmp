@@ -61,6 +61,12 @@ docker run -it --rm -v "${PWD}:/src" -w /src nickblah/lua lua tmp.lua
 tmp
 ```
 
+## PHP
+```sh
+docker run -it --rm -v "${PWD}:/src" -w /src php php tmp.php
+tmp
+```
+
 ## Markdown
 
 ```sh
